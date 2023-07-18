@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Command line suite]">
+  <test thread-count="5" verbose="0" name="Command line test(failed)">
+    <classes>
+      <class name="com.nopcommerce.demo.testsuites.ElectronicsTest">
+        <methods>
+          <include name="verifyUserShouldNavigateToCellPhonesPageSuccessfully"/>
+          <include name="tearDown"/>
+          <include name="verifyThatTheProductAddedSuccessfullyAndPlaceOrderSuccessfully"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.nopcommerce.demo.testsuites.ElectronicsTest -->
+      <class name="com.nopcommerce.demo.testsuites.TopMenuTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="verifyPageNavigation"/>
+        </methods>
+      </class> <!-- com.nopcommerce.demo.testsuites.TopMenuTest -->
+      <class name="com.nopcommerce.demo.testsuites.TestSuite">
+        <methods>
+          <include name="verifyProductAddedToShoppingCartSuccessFully"/>
+          <include name="tearDown"/>
+          <include name="verifyProductArrangeInAlphaBaticalOrder"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.nopcommerce.demo.testsuites.TestSuite -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->

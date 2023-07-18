@@ -1,0 +1,5 @@
+com\nopcommerce\demo\testbase\BaseTest.class
+com\nopcommerce\demo\testsuites\TopMenuTest.class
+com\nopcommerce\demo\testsuites\ElectronicsTest.class
+com\nopcommerce\demo\testsuites\TestSuite.class
+resources\testdata\TestData.class

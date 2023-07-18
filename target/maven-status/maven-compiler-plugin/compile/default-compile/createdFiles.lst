@@ -1,0 +1,14 @@
+com\nopcommerce\demo\pages\HomePage.class
+com\nopcommerce\demo\pages\ComputersPage.class
+com\nopcommerce\demo\pages\ElectronicsPage.class
+com\nopcommerce\demo\pages\CheckOutPage.class
+com\nopcommerce\demo\pages\BuildYourOwnComputerPage.class
+com\nopcommerce\demo\pages\LoginPage.class
+com\nopcommerce\demo\utility\Utility.class
+com\nopcommerce\demo\customelisteners\CustomListeners.class
+com\nopcommerce\demo\pages\ShoppingCartPage.class
+com\nopcommerce\demo\propertyreader\PropertyReader.class
+com\nopcommerce\demo\utility\Utility$1.class
+com\nopcommerce\demo\browserfactory\ManageBrowser.class
+com\nopcommerce\demo\pages\RegisterPage.class
+com\nopcommerce\demo\pages\CellPhonePage.class

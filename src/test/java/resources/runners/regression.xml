@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Regression test" verbose="1" >
+<groups>
+    <run>
+        <include name="regression"></include>
+    </run>
+</groups>
+    <listeners>
+        <listener class-name="com.nopcommerce.demo.customelisteners.CustomListeners"/>
+        <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+        <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+    </listeners>
+
+    <test name="Nopcommerce Test" >
+        <classes>
+            <class name="com.nopcommerce.demo.testsuites.ElectronicsTest"/>
+            <class name="com.nopcommerce.demo.testsuites.TestSuite"/>
+            <class name="com.nopcommerce.demo.testsuites.TopMenuTest"/>
+        </classes>
+    </test>
+</suite>
